@@ -1,0 +1,31 @@
+server:
+  port: 8889
+
+spring:
+  application:
+    name: career-gateway
+  profiles:
+    active: ${CUR_ENV:dev}
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: career-config
+        enabled: true
+      profile: ${spring.profiles.active}
+#      label: ${spring.profiles.active}
+
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST_NAME:spring.application.name}
+    status-page-url-path: /actuator/info
+    health-check-url-path: /actuator/health
+    lease-renewal-interval-in-seconds: 5    # 发送心跳给server端的频率
+    lease-expiration-duration-in-seconds: 20  # 心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance，默认为90秒
+    prefer-ip-address: true
+    ip-address: ${spring.cloud.client.ip-address}
+    instance-id: ${spring.cloud.client.hostname}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:8888/eureka/}
+    registry-fetch-interval-seconds: 10   # 间隔多久去拉取服务注册信息，默认为30秒

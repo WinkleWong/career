@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: career-eureka
+  profiles:
+    active: ${CUR_ENV:dev}
+
+server:
+  port: 8888
+
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST_NAME:spring.application.name}
+    prefer-ip-address: true  # 注册时使用ip而不是主机名
+    instance-id: ${spring.cloud.client.hostname}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  server:
+    response-cache-update-interval-ms: 5000   # 刷新readCacheMap的时间
+    eviction-interval-timer-in-ms: 5000   # 主动失效检测间隔为3s
+  client:
+    register-with-eureka: false   #false:不作为一个客户端注册到注册中心
+    fetch-registry: false    #是否从Eureka Server获取注册信息，默认为true。这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设为false。
+    service-url:
+      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:8888/eureka/}
