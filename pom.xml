@@ -49,6 +49,8 @@
         <module>career-gateway</module>
         <module>career-oauth2</module>
         <module>career-modules</module>
+        <module>career-common</module>
+        <module>career-modules</module>
     </modules>
 
     <dependencies>

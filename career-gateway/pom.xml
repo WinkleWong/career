@@ -52,6 +52,12 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.career</groupId>
+            <artifactId>career-common</artifactId>
+            <version>1.1.0-SNAPSHOT</version>
+        </dependency>
+
         <!--使用spring4all页面有错误，必须刷新页面才能显示详细条目，这里改为使用原生包-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -62,6 +68,11 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.7.0</version>
         </dependency>
     </dependencies>
 

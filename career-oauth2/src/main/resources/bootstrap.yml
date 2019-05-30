@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9003
   servlet:
     context-path: /auth
 
@@ -34,5 +34,5 @@ eureka:
         context-path: ${server.servlet.context-path}/actuator
   client:
     service-url:
-      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:8888/eureka/}
+      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:9000/eureka/}
     registry-fetch-interval-seconds: 10   # 间隔多久去拉取服务注册信息，默认为30秒

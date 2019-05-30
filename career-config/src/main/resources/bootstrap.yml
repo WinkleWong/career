@@ -1,5 +1,5 @@
 server:
-  port: 9999
+  port: 9001
 
 spring:
   application:
@@ -30,5 +30,5 @@ eureka:
     instance-id: ${spring.cloud.client.hostname}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
   client:
     service-url:
-      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:8888/eureka/}
+      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:9000/eureka/}
     registry-fetch-interval-seconds: 10   # 间隔多久去拉取服务注册信息，默认为30秒

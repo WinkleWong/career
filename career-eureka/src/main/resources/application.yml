@@ -5,7 +5,7 @@ spring:
     active: ${CUR_ENV:dev}
 
 server:
-  port: 8888
+  port: 9000
 
 eureka:
   instance:
@@ -19,4 +19,4 @@ eureka:
     register-with-eureka: false   #false:不作为一个客户端注册到注册中心
     fetch-registry: false    #是否从Eureka Server获取注册信息，默认为true。这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设为false。
     service-url:
-      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:8888/eureka/}
+      defaultZone: ${EUREKA_SERVER_LIST:http://localhost:9000/eureka/}
