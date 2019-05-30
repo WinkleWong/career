@@ -2,14 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ac25c791-bb98-4072-b88d-bb7a9b85d6e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/.mvn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/.mvn/wrapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/CareerSidmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/models" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/models/SidmUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career/careersidm" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career/careersidm/CareerSidmApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +56,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccessGatewayFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccessGatewayFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="67">
               <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -120,7 +156,6 @@
         <option value="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/career-oauth2/pom.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/CareerSidmApplication.java" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/UserService.java" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/models/SidmUser.java" />
@@ -131,6 +166,7 @@
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -183,47 +219,7 @@
             <path>
               <item name="career" type="b2602c69:ProjectViewProjectNode" />
               <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="career" type="b2602c69:ProjectViewProjectNode" />
-              <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="career" type="b2602c69:ProjectViewProjectNode" />
-              <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="career" type="b2602c69:ProjectViewProjectNode" />
-              <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="career" type="b2602c69:ProjectViewProjectNode" />
-              <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="careergateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="career" type="b2602c69:ProjectViewProjectNode" />
-              <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="careergateway" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="career" type="b2602c69:ProjectViewProjectNode" />
@@ -502,7 +498,7 @@
       <workItem from="1559022394748" duration="121000" />
       <workItem from="1559022522347" duration="5162000" />
       <workItem from="1559033353877" duration="3567000" />
-      <workItem from="1559037188406" duration="23248000" />
+      <workItem from="1559037188406" duration="23358000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <created>1559037567767</created>
@@ -554,7 +550,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39689000" />
+    <option name="totallyTimeSpent" value="39799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -580,7 +576,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.55725193" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
@@ -611,7 +607,8 @@
     <MESSAGE value="f" />
     <MESSAGE value="add oauth module" />
     <MESSAGE value="fix vcs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix vcs" />
+    <MESSAGE value="add sidm module and token validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sidm module and token validation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/career-eureka/pom.xml">
@@ -894,13 +891,6 @@
         <state relative-caret-position="-2016" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/career-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1023,11 +1013,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="67">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

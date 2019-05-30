@@ -1,0 +1,51 @@
+server:
+  port: 9004
+  servlet:
+    context-path: /sidm
+
+spring:
+  application:
+    name: career-sidm
+  profiles:
+    active: ${CUR_ENV:dev}
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: career-config
+        enabled: true
+      profile: ${spring.profiles.active}
+#      label: ${spring.profiles.active}
+
+eureka:
+  instance:
+    status-page-url-path: ${server.servlet.context-path}/actuator/info
+    health-check-url-path: ${server.servlet.context-path}/actuator/health
+    lease-renewal-interval-in-seconds: 5    # 发送心跳给server端的频率
+#    lease-expiration-duration-in-seconds: 20  # 心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance，默认为90秒
+    prefer-ip-address: true
+    ip-address: ${spring.cloud.client.ip-address}
+    instance-id: ${spring.cloud.client.hostname}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+    metadata-map:
+      management:
+        context-path: ${server.servlet.context-path}/actuator
+      cluster: ${spring.application.name}
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_LIST}
+    registry-fetch-interval-seconds: 10   # 间隔多久去拉取服务注册信息，默认为30秒
+
+---
+spring:
+  profiles: dev
+EUREKA_SERVER_LIST: http://localhost:9000/eureka/
+
+---
+spring:
+  profiles: sit
+EUREKA_SERVER_LIST: http://career-eureka:9000/eureka/
+
+---
+spring:
+  profiles: uat
+EUREKA_SERVER_LIST: http://career-eureka:9000/eureka/
