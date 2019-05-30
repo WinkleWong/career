@@ -57,8 +57,6 @@ public class AccessGatewayFilter implements GlobalFilter {
 	@Value("${jwt.sign-key}")
 	private String signKey;
 
-	private static final String GATE_WAY_PREFIX = "/api";
-
 	private static final String HEADER_TOKEN_PREFIX = "bearer";
 
 	private AntPathMatcher antPathMatcher = new AntPathMatcher();
