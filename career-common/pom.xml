@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>career-modules</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>career-common</artifactId>
+
 
 </project>
