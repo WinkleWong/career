@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/career-config/pom.xml" />
         <option value="$PROJECT_DIR$/career-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/career-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

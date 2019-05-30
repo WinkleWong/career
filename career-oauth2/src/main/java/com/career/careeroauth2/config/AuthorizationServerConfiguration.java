@@ -143,17 +143,17 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 			@Override
 			public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
 				final Map<String, Object> additionalInformation = new HashMap<>();
-				additionalInformation.put("user_info", authentication.getCredentials().toString());
+				additionalInformation.put("user_info", authentication.getPrincipal().toString());
 				((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(additionalInformation);
 				return super.enhance(accessToken, authentication);
 			}
 		};
-		/*  RSA首次解码太慢，变更回对称加密
+		/*  RSA首次解码太慢，变更回对称加密*/
 		converter.setSigningKey(signKey);
-		*/
+
 		// 修改为RSA非对称加密
-		KeyPair keyPair = new KeyStoreKeyFactory(new ClassPathResource("auth-jwt.jks"), storepass.toCharArray()).getKeyPair("auth-jwt");
-		converter.setKeyPair(keyPair);
+//		KeyPair keyPair = new KeyStoreKeyFactory(new ClassPathResource("auth-jwt.jks"), storepass.toCharArray()).getKeyPair("auth-jwt");
+//		converter.setKeyPair(keyPair);
 		return converter;
 	}
 }

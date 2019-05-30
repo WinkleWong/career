@@ -1,5 +1,6 @@
 package com.career.careergateway.filter;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.career.careergateway.config.FilterIgnorePropertiesConfig;
 import com.career.careergateway.service.AccessLogService;
@@ -32,7 +33,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.AccessDeniedException;
 import java.util.Base64;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Copyright © 2019 ChowSangSang . All rights reserved.Group
@@ -87,8 +87,8 @@ public class AccessGatewayFilter implements GlobalFilter {
 			}
 			user = jwtInfo.getUserName();
 			mutate.header(SecurityConstants.USER_HEADER, user);
-			mutate.header(SecurityConstants.ROLE_HEADER,
-					jwtInfo.getRoleList().stream().map(i -> i.toString()).collect(Collectors.joining(",")));
+//			mutate.header(SecurityConstants.ROLE_HEADER,
+//					jwtInfo.getRoleList().stream().map(i -> i.toString()).collect(Collectors.joining(",")));
 			ServerHttpRequest build = mutate.build();
 			accessLogService.log(exchange, CommonConstant.STATUS_NORMAL, user, null);
 			return chain.filter(exchange.mutate().request(build).build());
@@ -148,18 +148,16 @@ public class AccessGatewayFilter implements GlobalFilter {
 	private JwtInfo getJwtInfo(String token) {
 		String key = Base64.getEncoder().encodeToString(signKey.getBytes());
 		Claims claims = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
-		String userName = (String) claims.get("user_name");
+		log.warn("Claims: {}", JSON.toJSONString(claims));
+		String clientId = (String) claims.get("client_id");
+		log.warn("Client_id: {}", clientId);
 		List<String> roleList = (List<String>) claims.get("authorities");
-		return new JwtInfo(userName, roleList);
+		return new JwtInfo(clientId, roleList);
 	}
 
 	private boolean hasPermission(String requestUri, String method, JwtInfo jwtInfo) {
 		boolean hasPermission = false;
-		List<String> roleList = jwtInfo.getRoleList();
-		if (CollectionUtils.isEmpty(roleList)) {
-			log.warn("Role List Is Null.");
-			return hasPermission;
-		} else {
+		if ("winkle".equals(jwtInfo.getUserName())) {
 			hasPermission = true;
 		}
 		return hasPermission;

@@ -11,11 +11,11 @@
         <module name="career-eureka" />
         <module name="career-gateway" />
         <module name="career-oauth2" />
+        <module name="career-sidm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="career-modules" target="1.8" />
-      <module name="career-sidm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
