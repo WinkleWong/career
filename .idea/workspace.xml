@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ac25c791-bb98-4072-b88d-bb7a9b85d6e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/winkle_huang_w_k.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/config/FilterIgnorePropertiesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/service/AccessLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/service/impl/AccessLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/career-config/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/career-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/career-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-oauth2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/CareerOauth2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/CareerOauth2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-oauth2/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/career-oauth2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,12 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="224">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -175,6 +164,7 @@
         <option value="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/career-oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/career-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -223,6 +213,11 @@
             <path>
               <item name="career" type="b2602c69:ProjectViewProjectNode" />
               <item name="career" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="career" type="b2602c69:ProjectViewProjectNode" />
+              <item name="career" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="career" type="b2602c69:ProjectViewProjectNode" />
@@ -442,6 +437,32 @@
     <configuration>C:\Users\winkle.huang.w.k\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Idea_ctms\winkle\career\career-common" />
+          <option name="myCopyRoot" value="D:\Idea_ctms\winkle\career\career-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Idea_ctms\winkle\career\career-modules" />
+          <option name="myCopyRoot" value="D:\Idea_ctms\winkle\career\career-modules" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Idea_ctms\winkle\career\career-common" />
+          <option name="myCopyRoot" value="D:\Idea_ctms\winkle\career\career-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Idea_ctms\winkle\career\career-modules" />
+          <option name="myCopyRoot" value="D:\Idea_ctms\winkle\career\career-modules" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ac25c791-bb98-4072-b88d-bb7a9b85d6e1" name="Default" comment="" />
@@ -455,7 +476,7 @@
       <workItem from="1559022394748" duration="121000" />
       <workItem from="1559022522347" duration="5162000" />
       <workItem from="1559033353877" duration="3567000" />
-      <workItem from="1559037188406" duration="18501000" />
+      <workItem from="1559037188406" duration="19240000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <created>1559037567767</created>
@@ -500,7 +521,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34942000" />
+    <option name="totallyTimeSpent" value="35681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -555,7 +576,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="add oauth module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add oauth module" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/career-eureka/HELP.md">
@@ -654,9 +676,6 @@
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/service/impl/AccessLogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -953,8 +972,15 @@
     <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="224">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
