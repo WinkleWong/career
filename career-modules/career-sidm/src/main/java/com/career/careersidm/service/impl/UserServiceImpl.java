@@ -37,8 +37,12 @@ public class UserServiceImpl implements UserService {
 	@Value("${user.displayName}")
 	private String displayName;
 
+	@Value("${identity}")
+	private String identity;
+
 	@Override
 	public SidmUser getSidmUserByUserId(String id) {
+		log.warn("Environment Configuration Identity: {}", identity);
 		if (userId.equals(id)) {
 			return new SidmUser(userId, name, displayName, region, employeeType, deptCde);
 		}
