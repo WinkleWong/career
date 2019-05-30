@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ac25c791-bb98-4072-b88d-bb7a9b85d6e1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-modules/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccessGatewayFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccessGatewayFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="195">
+              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,12 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="400">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -132,9 +131,9 @@
         <option value="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/career-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" />
       </list>
     </option>
   </component>
@@ -183,11 +182,6 @@
             <path>
               <item name="career" type="b2602c69:ProjectViewProjectNode" />
               <item name="career" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="career" type="b2602c69:ProjectViewProjectNode" />
-              <item name="career" type="462c0819:PsiDirectoryNode" />
-              <item name="career-modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,7 +415,7 @@
       <workItem from="1559022394748" duration="121000" />
       <workItem from="1559022522347" duration="5162000" />
       <workItem from="1559033353877" duration="3567000" />
-      <workItem from="1559037188406" duration="23855000" />
+      <workItem from="1559037188406" duration="26813000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <created>1559037567767</created>
@@ -444,7 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559200264015</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add sidm module">
+      <created>1559200764763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559200764763</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove gateway prefix">
+      <created>1559205387701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559205387701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -480,14 +488,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40296000" />
+    <option name="totallyTimeSpent" value="43254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50053304" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50053304" side_tool="true" weight="0.32824427" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="5" />
@@ -506,13 +513,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.55725193" />
-      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293348" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -539,7 +546,8 @@
     <MESSAGE value="fix vcs" />
     <MESSAGE value="add sidm module and token validation" />
     <MESSAGE value="add sidm module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sidm module" />
+    <MESSAGE value="remove gateway prefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove gateway prefix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/career-eureka/pom.xml">
@@ -817,11 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2016" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/career-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -941,21 +944,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="400">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
