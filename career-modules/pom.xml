@@ -12,6 +12,10 @@
     <artifactId>career-modules</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>career-sidm</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>com.career</groupId>
