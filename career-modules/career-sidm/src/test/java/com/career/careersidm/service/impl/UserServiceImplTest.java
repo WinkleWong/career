@@ -38,5 +38,6 @@ public class UserServiceImplTest {
 	public void test() {
 		log.warn(JSON.toJSONString(recipients));
 		log.warn(JSON.toJSONString(winkle));
+		log.warn("test origin/master");
 	}
 }
