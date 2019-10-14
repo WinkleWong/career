@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ac25c791-bb98-4072-b88d-bb7a9b85d6e1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career/careersidm/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,12 +24,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AccessGatewayFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career/careersidm/service/impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="512">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,45 +38,33 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="108">
+              <caret line="122" column="49" selection-start-line="121" selection-start-column="16" selection-end-line="122" selection-end-column="49" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file leaf-file-name="FilterIgnorePropertiesConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/config/FilterIgnorePropertiesConfig.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="419">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#622#636#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorizationServerConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="e#4784#5251#0" expanded="true" />
-                <element signature="e#5250#5251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OAuth2Authentication.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/OAuth2Authentication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="515">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,6 +76,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -99,7 +91,6 @@
         <option value="$PROJECT_DIR$/career-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/career-config/pom.xml" />
         <option value="$PROJECT_DIR$/career-config/src/main/java/com/career/careerconfig/CareerConfigApplication.java" />
-        <option value="$PROJECT_DIR$/../config/dev/career-sidm-dev.yml" />
         <option value="$PROJECT_DIR$/../config/sit/career-sidm-sit.yml" />
         <option value="$PROJECT_DIR$/career-config/src/main/resources/boostrap.yml" />
         <option value="$PROJECT_DIR$/career-config/src/main/resources/application.yml" />
@@ -126,14 +117,18 @@
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/CareerSidmApplication.java" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/UserService.java" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/models/SidmUser.java" />
-        <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" />
         <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/career-modules/pom.xml" />
         <option value="$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java" />
+        <option value="$PROJECT_DIR$/../config/dev/application.yml" />
+        <option value="$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/career-modules/career-sidm/pom.xml" />
+        <option value="$PROJECT_DIR$/../config/dev/career-sidm-dev.yml" />
+        <option value="$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career/careersidm/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,9 +168,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +195,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/career-oauth2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,6 +206,12 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.career.careersidm.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Idea_ctms\winkle\career\career-oauth2\src\main\java\com\career\careeroauth2" />
       <recent name="D:\Idea_ctms\winkle\career\career-oauth2\src\main\resources" />
@@ -233,7 +236,7 @@
     </option>
     <option name="contentProportion" value="0.15392955" />
   </component>
-  <component name="RunManager" selected="Application.CareerOauth2Application">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.test">
     <configuration name="CareerOauth2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.career.careeroauth2.CareerOauth2Application" />
       <module name="career-oauth2" />
@@ -285,6 +288,29 @@
       <option name="MAIN_CLASS_NAME" value="com.career.eureka.CareerEurekaApplicationTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="career-sidm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.career.careersidm.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.career.careersidm.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.career.careersidm.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -383,14 +409,16 @@
       <item itemvalue="Spring Boot.CareerEurekaApplication" />
       <item itemvalue="Spring Boot.CareerGatewayApplication" />
       <item itemvalue="Spring Boot.CareerOauth2Application" />
+      <item itemvalue="Spring Boot.CareerSidmApplication" />
       <item itemvalue="JUnit.com.career.eureka in career-eureka" />
       <item itemvalue="JUnit.CareerEurekaApplicationTests" />
       <item itemvalue="JUnit.CareerConfigApplicationTests.contextLoads" />
       <item itemvalue="Application.CareerOauth2Application" />
-      <item itemvalue="Spring Boot.CareerSidmApplication" />
+      <item itemvalue="JUnit.UserServiceImplTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest.test" />
         <item itemvalue="Application.CareerOauth2Application" />
         <item itemvalue="JUnit.CareerConfigApplicationTests.contextLoads" />
         <item itemvalue="JUnit.CareerEurekaApplicationTests" />
@@ -415,7 +443,8 @@
       <workItem from="1559022394748" duration="121000" />
       <workItem from="1559022522347" duration="5162000" />
       <workItem from="1559033353877" duration="3567000" />
-      <workItem from="1559037188406" duration="26813000" />
+      <workItem from="1559037188406" duration="31049000" />
+      <workItem from="1571016044139" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <created>1559037567767</created>
@@ -452,25 +481,17 @@
       <option name="project" value="LOCAL" />
       <updated>1559205387701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test public configuration">
+      <created>1559209999752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559209999752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_career_eureka_in_career-eureka - 2019.05.22 at 10h 13m 00s.xml">
-      <configuration name="com.career.eureka in career-eureka" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EurekaApplicationTests - 2019.05.22 at 10h 13m 34s.xml">
-      <configuration name="EurekaApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EurekaApplicationTests - 2019.05.22 at 10h 18m 30s.xml">
-      <configuration name="EurekaApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EurekaApplicationTests - 2019.05.28 at 09h 24m 42s.xml">
-      <configuration name="EurekaApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EurekaApplicationTests - 2019.05.28 at 09h 26m 14s.xml">
-      <configuration name="EurekaApplicationTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EurekaApplicationTests - 2019.05.28 at 09h 31m 25s.xml">
       <configuration name="EurekaApplicationTests" configurationId="JUnit" />
     </history-entry>
@@ -486,18 +507,35 @@
     <history-entry file="CareerConfigApplicationTests_contextLoads - 2019.05.28 at 14h 02m 17s.xml">
       <configuration name="CareerConfigApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.10.14 at 09h 39m 40s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.10.14 at 10h 01m 21s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.10.14 at 10h 05m 06s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.10.14 at 10h 06m 21s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.10.14 at 10h 08m 18s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43254000" />
+    <option name="totallyTimeSpent" value="50975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50053304" side_tool="true" weight="0.32824427" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="bottom" id="MyBatis Log" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="5" />
       <window_info anchor="bottom" id="Tail" order="17" />
@@ -513,23 +551,23 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.55725193" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" visible="true" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" visible="true" weight="0.32279173" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.47982553" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293348" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -547,56 +585,14 @@
     <MESSAGE value="add sidm module and token validation" />
     <MESSAGE value="add sidm module" />
     <MESSAGE value="remove gateway prefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove gateway prefix" />
+    <MESSAGE value="test public configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="test public configuration" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/career-eureka/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/config/dev/ctms-gateway-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/CareerGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/career-oauth2/src/test/java/com/career/careeroauth2/CareerOauth2ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/config/dev/ctms-oauth2-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/service/impl/AccessLogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="723">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,12 +604,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/career-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../config/dev/career-gateway-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,32 +643,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
           <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/career-gateway/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/career-oauth2/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -691,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,13 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../config/dev/career-oauth-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../config/dev/career-oauth-dev.yml" />
     <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -746,22 +714,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/static/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/static/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/static/js/common.js" />
     <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -802,28 +756,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/templates/ftl/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/resources/templates/ftl/login.ftl" />
     <entry file="file://$PROJECT_DIR$/career-oauth2/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/career-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -842,17 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#622#636#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/CareerSidmApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -864,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,14 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="27" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -928,12 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/career-oauth2/src/main/java/com/career/careeroauth2/config/AuthorizationServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
+        <state relative-caret-position="1104">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#4784#5251#0" expanded="true" />
-            <element signature="e#5250#5251#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,28 +858,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$USER_HOME$/Desktop/config/dev/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="35">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/../config/dev/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state relative-caret-position="2352">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/career-gateway/src/main/java/com/career/careergateway/filter/AccessGatewayFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="331">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career-modules/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="122" column="49" selection-start-line="121" selection-start-column="16" selection-end-line="122" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config/dev/career-sidm-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/src/test/java/com/career/careersidm/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career-modules/career-sidm/src/main/java/com/career/careersidm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#636#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
