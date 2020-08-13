@@ -54,12 +54,12 @@ public class ClientRequestThread implements Runnable {
 			int maxLen = 1024;
 			byte[] contextBytes = new byte[maxLen];
 			int readLen;
-			String message = "";
+			StringBuilder message = new StringBuilder();
 			// 程序执行到这里, 会一直等待服务器返回信息. (注意, 前提是in和out都不能close, 如果close了就收不到服务器的反馈)
 			while ((readLen = clientResponse.read(contextBytes, 0, maxLen)) != -1) {
-				message += new String(contextBytes, 0, readLen);
+				message.append(new String(contextBytes, 0, readLen));
 			}
-			message = URLDecoder.decode(message, String.valueOf(StandardCharsets.UTF_8));
+			message = new StringBuilder(URLDecoder.decode(message.toString(), String.valueOf(StandardCharsets.UTF_8)));
 			System.out.println("第" + this.clientIndex + "个客户端接收到来自服务器的信息:" + message);
 		} catch (IOException | InterruptedException e) {
 			System.out.println(e.getMessage());
