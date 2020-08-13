@@ -1,21 +1,17 @@
 package com.career.careersidm.io;
 
-import com.google.common.base.Utf8;
-import org.apache.tomcat.util.digester.DocumentProperties;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.net.URLDecoder;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;
 
 /**
  * Copyright © 2020 ChowSangSang Group All Rights Reserved.
  *
- * @Description: career
+ * @Description: 一个ClientRequestThread线程模拟一个客户端请求。
  * @Package: com.career.careersidm.io
  * @Author: Winkle.huang.w.k
  * @Date: 2020/8/13
@@ -23,7 +19,16 @@ import java.util.concurrent.CountDownLatch;
  */
 public class ClientRequestThread implements Runnable {
 
+	/**
+	 * @author Winkle.Huang.w.k
+	 * @description countDownLatch是java提供的同步计数器。
+	 *    当计数器数值减为0时，所有受其影响而等待的线程将会被激活。这样保证模拟并发请求的真实性
+	 */
 	private final CountDownLatch countDownLatch;
+	/**
+	 * @author Winkle.Huang.w.k
+	 * @description 线程的编号
+	 */
 	private final Integer clientIndex;
 
 	public ClientRequestThread(CountDownLatch countDownLatch, Integer clientIndex) {
