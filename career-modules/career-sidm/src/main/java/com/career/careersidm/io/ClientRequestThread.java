@@ -38,7 +38,7 @@ public class ClientRequestThread implements Runnable {
 
 	@Override
 	public void run() {
-		try (Socket socket = new Socket("localhost", 8083);
+		try (Socket socket = new Socket("localhost", BioSocketServer.DEFAULT_PORT);
 			 OutputStream clientRequest = socket.getOutputStream();
 			 InputStream clientResponse = socket.getInputStream();
 		) {

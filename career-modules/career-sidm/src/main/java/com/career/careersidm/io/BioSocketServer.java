@@ -13,7 +13,7 @@ import java.net.Socket;
  * @Version: 1.0
  */
 public class BioSocketServer {
-	private static int DEFAULT_PORT = 8083;
+	public static int DEFAULT_PORT = 8083;
 
 	public static void main(String[] args) throws InterruptedException {
 		try (ServerSocket serverSocket = new ServerSocket(DEFAULT_PORT)) {
