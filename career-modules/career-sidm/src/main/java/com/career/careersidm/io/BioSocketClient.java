@@ -17,7 +17,7 @@ public class BioSocketClient {
 		CountDownLatch countDownLatch = new CountDownLatch(clientNumber);
 
 		// 分别开始启动这20个客户端,并发访问
-		for (int index = 0; index < clientNumber; index++, countDownLatch.countDown()) {
+		for (int index = 1; index < clientNumber + 1; index++, countDownLatch.countDown()) {
 			ClientRequestThread client = new ClientRequestThread(countDownLatch, index);
 			new Thread(client).start();
 		}

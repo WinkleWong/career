@@ -44,13 +44,12 @@ public class ClientRequestThread implements Runnable {
 		) {
 			// 等待, 直到SocketClientDeamon完成所以线程的启动, 然后所以线程一起发送请求
 			this.countDownLatch.await();
-
+			String index = this.clientIndex > 9 ? String.valueOf(this.clientIndex) : "0" + (this.clientIndex );
 			//发送请求
-			clientRequest.write(("这是第" + this.clientIndex + " 个客户端的请求. over").getBytes());
+			clientRequest.write(("这是第" + index + "个客户端的请求. over").getBytes());
 			clientRequest.flush();
-
 			// 在这里等待, 直到服务器返回信息
-			System.out.println("第" + this.clientIndex + "个客户端的请求发送完成, 等待服务器返回信息");
+			System.out.println("第" + index + "个客户端的请求发送完成, 等待服务器返回信息");
 			int maxLen = 1024;
 			byte[] contextBytes = new byte[maxLen];
 			int readLen;
@@ -60,7 +59,7 @@ public class ClientRequestThread implements Runnable {
 				message.append(new String(contextBytes, 0, readLen));
 			}
 			message = new StringBuilder(URLDecoder.decode(message.toString(), String.valueOf(StandardCharsets.UTF_8)));
-			System.out.println("第" + this.clientIndex + "个客户端接收到来自服务器的信息:" + message);
+			System.out.println("第" + index + "个客户端接收到来自服务器的信息:" + message);
 		} catch (IOException | InterruptedException e) {
 			System.out.println(e.getMessage());
 		}
