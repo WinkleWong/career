@@ -38,7 +38,7 @@ public class NettyServer {
 		int processorQty = Runtime.getRuntime().availableProcessors();
 		EventLoopGroup workLoopGroup = new NioEventLoopGroup(processorQty * 2, threadFactory, SelectorProvider.provider());
 		//指定Netty的BOSS线程
-		serverBootstrap.group(bossLoopGroup);
+		serverBootstrap.group(bossLoopGroup, workLoopGroup);
 
 		/**
 		 * 如果是以下这种声明模式, 说明BOSS线程和WORK线程共享一个线程池
