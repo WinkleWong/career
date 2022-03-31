@@ -24,7 +24,7 @@
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-io.version>1.3.2</commons-io.version>
         <mapper.version>3.4.0</mapper.version>
-        <spring-beans.version>5.0.4.RELEASE</spring-beans.version>
+        <spring-beans.version>5.3.18</spring-beans.version>
         <pagehelper.version>5.0.3</pagehelper.version>
         <spring-web.version>5.0.4.RELEASE</spring-web.version>
         <jjwt.version>0.7.0</jjwt.version>
